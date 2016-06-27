@@ -70,7 +70,9 @@ class LabelViewController: UIViewController {
     @IBInspectable
 
     //懒加载
-    lazy var label : UILabel? = {
+    lazy var label : UILabel = {
+
+        // let  只创建一次  不能使用var
         let tempLabel = UILabel()
         tempLabel.tag = 0 //tag
         tempLabel.backgroundColor = UIColor.darkGrayColor()
@@ -194,6 +196,16 @@ class LabelViewController: UIViewController {
          */
 
 
+        //FIXME:打开不做操作会崩溃  动态宽高
+        /*
+        var attributes = [NSFontAttributeName: tempLabel.font]
+        var option = NSStringDrawingOptions.UsesLineFragmentOrigin
+
+        var  stringTest : NSString = NSString(CString: (tempLabel.text?.cStringUsingEncoding(NSUTF8StringEncoding))!, encoding: NSUTF8StringEncoding)!
+        stringTest.boundingRectWithSize(CGSizeMake(CGFloat.max, CGFloat.max), options: option, attributes: attributes, context: nil)
+         */
+
+
         return tempLabel
     }()
 
@@ -210,9 +222,9 @@ class LabelViewController: UIViewController {
 
         //FIXME: 有bug
         //TODO: 今天睡觉
-        self.label?.text = "a;slkdjfl;asjd;lfjasl;kdjflkasjdfks;dfjlka;sdjf结尾"
-        self.label?.frame = CGRectMake(100, 100, 100, 40)
-        self.view.addSubview(self.label!)
+        self.label.text = "a;slkdjfl;asjd;lfjasl;kdjflkasjdfks;dfjlka;sdjf结尾"
+        self.label.frame = CGRectMake(100, 100, 100, 40)
+        self.view.addSubview(self.label)
 
         //扩展
         /*

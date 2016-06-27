@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4007A0D51D177E1B00BBA409 /* UIButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0D41D177E1B00BBA409 /* UIButtonViewController.swift */; };
+		4007A0D71D17997600BBA409 /* UISegmentControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0D61D17997600BBA409 /* UISegmentControlViewController.swift */; };
+		4007A0D91D179E4300BBA409 /* UITextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0D81D179E4300BBA409 /* UITextFieldViewController.swift */; };
+		4007A0DB1D179E5000BBA409 /* UITextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0DA1D179E5000BBA409 /* UITextViewViewController.swift */; };
+		4007A0DD1D179E6100BBA409 /* UISliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0DC1D179E6100BBA409 /* UISliderViewController.swift */; };
+		4007A0DF1D179E6B00BBA409 /* UISwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0DE1D179E6A00BBA409 /* UISwitchViewController.swift */; };
+		4007A0E11D179E8000BBA409 /* UIActivitylndicatorViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0E01D179E8000BBA409 /* UIActivitylndicatorViewViewController.swift */; };
+		4007A0E31D179E8B00BBA409 /* UIProgressViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0E21D179E8B00BBA409 /* UIProgressViewViewController.swift */; };
+		4007A0E51D179EA200BBA409 /* UIStepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0E41D179EA200BBA409 /* UIStepperViewController.swift */; };
+		4015A9B81D195109002E71E7 /* UIBlurEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4015A9B71D195109002E71E7 /* UIBlurEffectViewController.swift */; };
 		401FFB8C1D13FBA800CBC118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FFB8B1D13FBA800CBC118 /* AppDelegate.swift */; };
 		401FFB8E1D13FBA800CBC118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FFB8D1D13FBA800CBC118 /* ViewController.swift */; };
 		401FFB911D13FBA800CBC118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 401FFB8F1D13FBA800CBC118 /* Main.storyboard */; };
@@ -15,6 +25,16 @@
 		401FFBA11D13FBA800CBC118 /* swiftUiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FFBA01D13FBA800CBC118 /* swiftUiTests.swift */; };
 		401FFBAC1D13FBA800CBC118 /* swiftUiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FFBAB1D13FBA800CBC118 /* swiftUiUITests.swift */; };
 		401FFBBA1D13FC1300CBC118 /* LabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401FFBB91D13FC1300CBC118 /* LabelViewController.swift */; };
+		402FC49E1D1AA784002F3725 /* UIScrollViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402FC49D1D1AA784002F3725 /* UIScrollViewViewController.swift */; };
+		40DD54E01D1CEF1500EFC2A1 /* SingletonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD54DF1D1CEF1500EFC2A1 /* SingletonViewController.swift */; };
+		40DD54E21D1D074000EFC2A1 /* UIGestureRecognizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD54E11D1D074000EFC2A1 /* UIGestureRecognizerViewController.swift */; };
+		40DD54E81D1D168E00EFC2A1 /* IndexedTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD54E71D1D168E00EFC2A1 /* IndexedTableViewViewController.swift */; };
+		40DD54EA1D1D23CD00EFC2A1 /* HTTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD54E91D1D23CD00EFC2A1 /* HTTPViewController.swift */; };
+		40DD54EC1D1D3FEB00EFC2A1 /* PassValueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD54EB1D1D3FEB00EFC2A1 /* PassValueViewController.swift */; };
+		40E61A681D1B8E7B007F83C5 /* UIAlertViewControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E61A671D1B8E7B007F83C5 /* UIAlertViewControllerViewController.swift */; };
+		40E61A6A1D1B9880007F83C5 /* UIWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E61A691D1B9880007F83C5 /* UIWebViewViewController.swift */; };
+		40E61A6C1D1BA2F7007F83C5 /* UITableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E61A6B1D1BA2F7007F83C5 /* UITableViewViewController.swift */; };
+		40E61A6E1D1BA30F007F83C5 /* UICollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E61A6D1D1BA30F007F83C5 /* UICollectionViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +55,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4007A0D41D177E1B00BBA409 /* UIButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonViewController.swift; sourceTree = "<group>"; };
+		4007A0D61D17997600BBA409 /* UISegmentControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISegmentControlViewController.swift; sourceTree = "<group>"; };
+		4007A0D81D179E4300BBA409 /* UITextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldViewController.swift; sourceTree = "<group>"; };
+		4007A0DA1D179E5000BBA409 /* UITextViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewViewController.swift; sourceTree = "<group>"; };
+		4007A0DC1D179E6100BBA409 /* UISliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderViewController.swift; sourceTree = "<group>"; };
+		4007A0DE1D179E6A00BBA409 /* UISwitchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISwitchViewController.swift; sourceTree = "<group>"; };
+		4007A0E01D179E8000BBA409 /* UIActivitylndicatorViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIActivitylndicatorViewViewController.swift; sourceTree = "<group>"; };
+		4007A0E21D179E8B00BBA409 /* UIProgressViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIProgressViewViewController.swift; sourceTree = "<group>"; };
+		4007A0E41D179EA200BBA409 /* UIStepperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStepperViewController.swift; sourceTree = "<group>"; };
+		4015A9B71D195109002E71E7 /* UIBlurEffectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBlurEffectViewController.swift; sourceTree = "<group>"; };
 		401FFB881D13FBA800CBC118 /* swiftUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		401FFB8B1D13FBA800CBC118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		401FFB8D1D13FBA800CBC118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +79,17 @@
 		401FFBAB1D13FBA800CBC118 /* swiftUiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUiUITests.swift; sourceTree = "<group>"; };
 		401FFBAD1D13FBA800CBC118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		401FFBB91D13FC1300CBC118 /* LabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelViewController.swift; sourceTree = "<group>"; };
+		402FC49D1D1AA784002F3725 /* UIScrollViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScrollViewViewController.swift; sourceTree = "<group>"; };
+		40DD54DF1D1CEF1500EFC2A1 /* SingletonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonViewController.swift; sourceTree = "<group>"; };
+		40DD54E11D1D074000EFC2A1 /* UIGestureRecognizerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGestureRecognizerViewController.swift; sourceTree = "<group>"; };
+		40DD54E31D1D100B00EFC2A1 /* swiftUi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swiftUi-Bridging-Header.h"; sourceTree = "<group>"; };
+		40DD54E71D1D168E00EFC2A1 /* IndexedTableViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexedTableViewViewController.swift; sourceTree = "<group>"; };
+		40DD54E91D1D23CD00EFC2A1 /* HTTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPViewController.swift; sourceTree = "<group>"; };
+		40DD54EB1D1D3FEB00EFC2A1 /* PassValueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassValueViewController.swift; sourceTree = "<group>"; };
+		40E61A671D1B8E7B007F83C5 /* UIAlertViewControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertViewControllerViewController.swift; sourceTree = "<group>"; };
+		40E61A691D1B9880007F83C5 /* UIWebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWebViewViewController.swift; sourceTree = "<group>"; };
+		40E61A6B1D1BA2F7007F83C5 /* UITableViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewViewController.swift; sourceTree = "<group>"; };
+		40E61A6D1D1BA30F007F83C5 /* UICollectionViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +143,31 @@
 				401FFB8B1D13FBA800CBC118 /* AppDelegate.swift */,
 				401FFB8D1D13FBA800CBC118 /* ViewController.swift */,
 				401FFBB91D13FC1300CBC118 /* LabelViewController.swift */,
+				4007A0D41D177E1B00BBA409 /* UIButtonViewController.swift */,
+				4007A0D61D17997600BBA409 /* UISegmentControlViewController.swift */,
+				4007A0D81D179E4300BBA409 /* UITextFieldViewController.swift */,
+				4007A0DA1D179E5000BBA409 /* UITextViewViewController.swift */,
+				4007A0DC1D179E6100BBA409 /* UISliderViewController.swift */,
+				4007A0DE1D179E6A00BBA409 /* UISwitchViewController.swift */,
+				4007A0E01D179E8000BBA409 /* UIActivitylndicatorViewViewController.swift */,
+				4007A0E21D179E8B00BBA409 /* UIProgressViewViewController.swift */,
+				4007A0E41D179EA200BBA409 /* UIStepperViewController.swift */,
+				4015A9B71D195109002E71E7 /* UIBlurEffectViewController.swift */,
+				402FC49D1D1AA784002F3725 /* UIScrollViewViewController.swift */,
+				40E61A671D1B8E7B007F83C5 /* UIAlertViewControllerViewController.swift */,
+				40E61A691D1B9880007F83C5 /* UIWebViewViewController.swift */,
+				40E61A6B1D1BA2F7007F83C5 /* UITableViewViewController.swift */,
+				40E61A6D1D1BA30F007F83C5 /* UICollectionViewViewController.swift */,
+				40DD54DF1D1CEF1500EFC2A1 /* SingletonViewController.swift */,
+				40DD54E11D1D074000EFC2A1 /* UIGestureRecognizerViewController.swift */,
+				40DD54E71D1D168E00EFC2A1 /* IndexedTableViewViewController.swift */,
+				40DD54E91D1D23CD00EFC2A1 /* HTTPViewController.swift */,
+				40DD54EB1D1D3FEB00EFC2A1 /* PassValueViewController.swift */,
 				401FFB8F1D13FBA800CBC118 /* Main.storyboard */,
 				401FFB921D13FBA800CBC118 /* Assets.xcassets */,
 				401FFB941D13FBA800CBC118 /* LaunchScreen.storyboard */,
 				401FFB971D13FBA800CBC118 /* Info.plist */,
+				40DD54E31D1D100B00EFC2A1 /* swiftUi-Bridging-Header.h */,
 			);
 			path = swiftUi;
 			sourceTree = "<group>";
@@ -197,6 +259,7 @@
 				TargetAttributes = {
 					401FFB871D13FBA800CBC118 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = S82ZX9394G;
 					};
 					401FFB9B1D13FBA800CBC118 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -276,9 +339,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4015A9B81D195109002E71E7 /* UIBlurEffectViewController.swift in Sources */,
+				40E61A6C1D1BA2F7007F83C5 /* UITableViewViewController.swift in Sources */,
+				40DD54E01D1CEF1500EFC2A1 /* SingletonViewController.swift in Sources */,
+				4007A0E51D179EA200BBA409 /* UIStepperViewController.swift in Sources */,
+				4007A0D71D17997600BBA409 /* UISegmentControlViewController.swift in Sources */,
+				4007A0D51D177E1B00BBA409 /* UIButtonViewController.swift in Sources */,
+				40DD54EA1D1D23CD00EFC2A1 /* HTTPViewController.swift in Sources */,
 				401FFB8E1D13FBA800CBC118 /* ViewController.swift in Sources */,
 				401FFB8C1D13FBA800CBC118 /* AppDelegate.swift in Sources */,
+				40E61A6E1D1BA30F007F83C5 /* UICollectionViewViewController.swift in Sources */,
+				4007A0D91D179E4300BBA409 /* UITextFieldViewController.swift in Sources */,
+				4007A0DB1D179E5000BBA409 /* UITextViewViewController.swift in Sources */,
 				401FFBBA1D13FC1300CBC118 /* LabelViewController.swift in Sources */,
+				40E61A681D1B8E7B007F83C5 /* UIAlertViewControllerViewController.swift in Sources */,
+				4007A0E31D179E8B00BBA409 /* UIProgressViewViewController.swift in Sources */,
+				40DD54E21D1D074000EFC2A1 /* UIGestureRecognizerViewController.swift in Sources */,
+				4007A0E11D179E8000BBA409 /* UIActivitylndicatorViewViewController.swift in Sources */,
+				40DD54E81D1D168E00EFC2A1 /* IndexedTableViewViewController.swift in Sources */,
+				4007A0DF1D179E6B00BBA409 /* UISwitchViewController.swift in Sources */,
+				402FC49E1D1AA784002F3725 /* UIScrollViewViewController.swift in Sources */,
+				40DD54EC1D1D3FEB00EFC2A1 /* PassValueViewController.swift in Sources */,
+				40E61A6A1D1B9880007F83C5 /* UIWebViewViewController.swift in Sources */,
+				4007A0DD1D179E6100BBA409 /* UISliderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,10 +503,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = swiftUi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Vhall.www.swiftUi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftUi/swiftUi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -431,10 +522,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = swiftUi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Vhall.www.swiftUi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "swiftUi/swiftUi-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -503,6 +601,7 @@
 				401FFBB21D13FBA800CBC118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		401FFBB31D13FBA800CBC118 /* Build configuration list for PBXNativeTarget "swiftUiTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +610,7 @@
 				401FFBB51D13FBA800CBC118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		401FFBB61D13FBA800CBC118 /* Build configuration list for PBXNativeTarget "swiftUiUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +619,7 @@
 				401FFBB81D13FBA800CBC118 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
